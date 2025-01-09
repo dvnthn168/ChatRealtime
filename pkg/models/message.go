@@ -1,6 +1,7 @@
 package models
 
-// Message là mô hình dữ liệu tin nhắn
 type Message struct {
-	Content string `json:"content"`
+	Sender    string `json:"sender"`
+	Recipient string `json:"recipient"`
+	Message   string `json:"message"`
 }
